@@ -24,7 +24,7 @@ public class Coche {
 	this.modelo = modelo;
     }
     
-    // Setter and Getters de los atributos
+    // Setters and Getters de los atributos
     
     public String getMarca() {
         return marca;
