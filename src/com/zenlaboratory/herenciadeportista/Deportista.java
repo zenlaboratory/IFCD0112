@@ -11,9 +11,7 @@ import com.zenlaboratory.herenciadeportistaoverride.Persona;
  * @author Lenovo
  */
 public class Deportista extends Persona {
-    
-    
-    
+
     private String deporte;
 
     public String getDeporte() {
@@ -23,7 +21,5 @@ public class Deportista extends Persona {
     public void setDeporte(String deporte) {
         this.deporte = deporte;
     }
-    
-    
-    
+
 }

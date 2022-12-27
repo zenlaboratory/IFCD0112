@@ -9,21 +9,21 @@ package com.zenlaboratory.figurageometrica;
  * @author Lenovo
  */
 public class Rectangulo extends FiguraGeometrica {
-    
-   private double base, altura;
-    
-    public Rectangulo (double b, double h){
+
+    private double base, altura;
+
+    public Rectangulo(double b, double h) {
         super();
         base = b;
         altura = h;
     }
-    
+
     public double area() {
-        return base*altura;
+        return base * altura;
     }
-    
+
     public double perimetro() {
-        return 2*(base+altura);
+        return 2 * (base + altura);
     }
-    
+
 }

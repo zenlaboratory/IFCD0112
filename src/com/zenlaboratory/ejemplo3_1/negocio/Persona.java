@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.zenlaboratory.ejemplo3.negocio;
+package com.zenlaboratory.ejemplo3_1.negocio;
 
 /**
  *
@@ -11,6 +11,16 @@ package com.zenlaboratory.ejemplo3.negocio;
 public class Persona {
 
     private String nombre;
+    
+    // Llama al constructor de la clase padre
+    //La clasedel padre de Persona es Object
+    
+    public Persona(String nombre) {
+        
+        super();
+        this.nombre = nombre;
+        
+    }
 
     public String getNombre() {
 

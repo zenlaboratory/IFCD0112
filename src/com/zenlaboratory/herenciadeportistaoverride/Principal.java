@@ -9,22 +9,21 @@ package com.zenlaboratory.herenciadeportistaoverride;
  * @author Lenovo
  */
 public class Principal {
-    
+
     public static void main(String[] args) {
-        
+
         Persona persona = new Persona();
-        
+
         persona.setNombre("Manolo");
         persona.andar();
-        
+
         Deportista deportista = new Deportista();
-        
+
         deportista.setNombre("Omar");
         deportista.andar();
-        
+
         // System.out.println("Nombre deportista " + deportista.getNombre());
         // System.out.println("Tipo deporte " + deportista.getDeporte());
-        
     }
-    
+
 }

@@ -11,17 +11,17 @@ import com.zenlaboratory.herenciadeportistaoverride.Deportista;
  * @author Lenovo
  */
 public class Principal {
-    
+
     public static void main(String[] args) {
-        
+
         Deportista deportista = new Deportista();
-        
+
         deportista.setNombre("Omar");
         deportista.setDeporte("Esgrima");
-        
+
         System.out.println("Nombre deportista " + deportista.getNombre());
         System.out.println("Tipo deporte " + deportista.getDeporte());
-        
+
     }
-    
+
 }

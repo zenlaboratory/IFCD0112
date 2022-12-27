@@ -9,7 +9,7 @@ package com.zenlaboratory.herenciadeportistaoverride;
  * @author Lenovo
  */
 public class Deportista extends Persona {
-    
+
     private String deporte;
 
     public String getDeporte() {
@@ -19,16 +19,14 @@ public class Deportista extends Persona {
     public void setDeporte(String deporte) {
         this.deporte = deporte;
     }
-    
+
     // Anotación
-    
-   @Override
-   
-   public void andar() {
-       
-       System.out.println(getNombre() + " camina a 15 Km/h");
-       
-   }
-    
-    
+    @Override
+
+    public void andar() {
+
+        System.out.println(getNombre() + " camina a 15 Km/h");
+
+    }
+
 }

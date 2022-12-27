@@ -9,21 +9,21 @@ package com.zenlaboratory.figurageometrica;
  * @author Lenovo
  */
 public class FiguraGeometrica {
-    
+
     String color;
-    
+
     public void setColor(String s) {
-        
-        color = s; 
-        
+
+        color = s;
+
     }
-    
-    public String getColor() { 
-        
-        return color; 
-        
+
+    public String getColor() {
+
+        return color;
+
     }
-    
+
     /*public void area() {
         
         
@@ -35,5 +35,4 @@ public class FiguraGeometrica {
         
         
     }*/
-    
 }

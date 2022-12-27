@@ -9,7 +9,7 @@ package com.zenlaboratory.herenciadeportista;
  * @author Lenovo
  */
 public class Persona {
-    
+
     private String nombre;
 
     public String getNombre() {
@@ -19,7 +19,5 @@ public class Persona {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
-    
-    
+
 }

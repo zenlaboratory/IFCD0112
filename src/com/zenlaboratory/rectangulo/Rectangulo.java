@@ -2,19 +2,19 @@ package com.zenlaboratory.rectangulo;
 
 public class Rectangulo {
 
-	int lado1;
-	int lado2;
+    int lado1;
+    int lado2;
 
-	public double area() {
+    public double area() {
 
-		return (lado1 * lado2);
+        return (lado1 * lado2);
 
-	}
+    }
 
-	public double perimetro() {
+    public double perimetro() {
 
-		return (2 * lado1 + 2 * lado2);
+        return (2 * lado1 + 2 * lado2);
 
-	}
+    }
 
 }
