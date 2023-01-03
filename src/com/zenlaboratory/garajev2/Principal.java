@@ -25,9 +25,15 @@ public class Principal {
         garaje.entraVehiculo(v2);
         garaje.entraVehiculo(v3);
         garaje.entraVehiculo(v4);
+
         garaje.entraVehiculo(v5);
         garaje.entraVehiculo(v6);
         garaje.entraVehiculo(v1); // Este vehículo no entraría en el garaje porque está completo.
+
+        //garaje.entraVehiculo(v5);
+        //garaje.entraVehiculo(v6);
+        //garaje.entraVehiculo(v1); // Este vehículo no entraría en el garaje porque está completo.
+
         
         garaje.listaOcupacion();        
         

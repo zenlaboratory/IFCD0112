@@ -26,7 +26,9 @@ public class Garaje {
         if (i > 5) {
 
             System.out.println("Las 6 plazas del garaje están ocupadas");
+
             System.out.println("El vehículo no será aparcado en garaje");
+
             System.out.println("--------------------------------------");
 
         } else {
