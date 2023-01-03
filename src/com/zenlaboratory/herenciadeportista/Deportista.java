@@ -4,7 +4,7 @@
  */
 package com.zenlaboratory.herenciadeportista;
 
-import com.zenlaboratory.herenciadeportistaoverride.Persona;
+import com.zenlaboratory.herenciadeportista.Persona;
 
 /**
  *
